@@ -6,7 +6,7 @@ log = logging.getLogger(__name__)
 
 
 class Bap(object):
-    _ADDR = ('localhost', 8081)
+    _ADDR = ('api.production.bap.codd.io', 8080)
 
     def __init__(self, api_key: str):
         self._api_key = api_key
