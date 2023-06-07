@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name='bapsdk',
     packages=['bap'],
-    version='0.1.0',
+    version='0.1.1',
     description='Bot Advertising Platform SDK',
     python_requires='>=3.7',
     classifiers=[
