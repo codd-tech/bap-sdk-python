@@ -3,8 +3,9 @@ from setuptools import setup
 setup(
     name='bapsdk',
     packages=['bap'],
-    version='0.1.1',
+    version='0.1.2',
     description='Bot Advertising Platform SDK',
+    long_description_content_type="text/markdown",
     python_requires='>=3.7',
     classifiers=[
         'Programming Language :: Python :: 3.7',
