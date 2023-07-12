@@ -27,6 +27,14 @@ See [examples](./examples)
 - [Basic usage](examples/basic.py)
 - [Usage with aiogram](examples/aiogram_bot.py)
 
+#### Interrupting control flow
+
+At times, BAP may introduce telegram updates within its advertisement flow. To maintain the logical consistency of your bot, it is necessary to ignore such updates.
+
+The `BAP.handle_update` method returns a boolean value indicating whether you should proceed with handling the request or skip it as an internal BAP request.
+
+When the method returns `false`, it signifies that the current request should not be processed by your bot.
+
 ### API Key
 
 **API key is not your Telegram bot token.**
