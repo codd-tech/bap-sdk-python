@@ -35,6 +35,12 @@ The `BAP.handle_update` method returns a boolean value indicating whether you sh
 
 When the method returns `false`, it signifies that the current request should not be processed by your bot.
 
+For manual advertisement mode (Should be turned on in settings) call following in the desired ad placements.
+
+```python
+bap.send_advertisement(update)
+```
+
 ### API Key
 
 **API key is not your Telegram bot token.**
